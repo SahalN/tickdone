@@ -16,7 +16,9 @@
       </section>
       <section aria-labelledby="section-title">
         <ul>
-          <li v-for="(item, index) in allData" :key="index">{{ item }}</li>
+          <li v-for="(item, index) in allData" :key="index">
+            {{ item }} <input type="checkbox" />Done
+          </li>
         </ul>
       </section>
     </section>
